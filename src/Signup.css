@@ -1,0 +1,50 @@
+.signup-text{
+    color:whitesmoke;
+    margin-bottom: 10px;
+    }
+    
+    .p{
+        padding: 2%;
+    }
+    
+    .Professor-name{
+     margin: 10px;
+     color:whitesmoke;
+     
+    }
+    
+    .input-1{
+        border-radius: 5px;
+    }
+    
+    .m{
+        padding: 2%;
+    }
+    
+    .Major-name{
+        margin: 10px;
+        color:whitesmoke;
+       }
+    
+       .input-2{
+        border-radius: 5px;
+    }
+    
+    .c{
+        padding: 2%;
+    }
+    
+    .Course-name{
+        margin: 10px;
+        color:whitesmoke;
+       }
+    
+    .input-3{
+        border-radius: 5px;
+    }
+    
+    .signup-button{
+    padding:3px;
+    color: black;
+    font-size: 6;
+    }

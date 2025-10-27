@@ -1,0 +1,74 @@
+.CreateAcc, .Signup{
+    border:2px solid whitesmoke;
+    border-radius: 5px;
+    padding:20px;
+    margin:10px ;
+    width: 40%;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.5);
+    
+}
+
+.CreateAcc, .Signup{
+    display: inline-block;
+    margin-right: 90px;
+}
+
+.CreateAcc{
+    margin-left: 0;
+}
+
+
+.CreateAcc-text{
+   color:whitesmoke;
+margin-bottom: 10px;
+}
+
+.FirstName{
+    padding: 2%;
+}
+
+.First-name{
+ margin: 10px;
+ color:whitesmoke;
+ 
+}
+
+.Cinput-1{
+    border-radius: 5px;
+}
+
+.LastName{
+    padding: 2%;
+}
+
+.Last-name{
+    margin: 10px;
+    color:whitesmoke;
+   }
+
+.Cinput-2{
+    border-radius: 5px;
+}
+
+.Email{
+    padding: 2%;
+}
+
+.Email1{
+    margin: 10px;
+    color:whitesmoke;
+   }
+
+.Cinput-3{
+    border-radius: 5px;
+}
+
+.create-button{
+padding:3px;
+color: black;
+font-size: 6;
+}

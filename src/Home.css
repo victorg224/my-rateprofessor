@@ -1,0 +1,132 @@
+.Main {
+    width: 100%; 
+    display: flex;          /* Enable Flexbox */
+    justify-content: center;
+    align-items: center;     /* Center items horizontally */
+    padding:0;
+    height: 100hv;
+    background-clip: border-box;   
+    position: relative; 
+    overflow: hidden;  
+  }
+
+  html, body{
+    margin: 0%;
+    padding: 0%;
+    background-color: transparent;
+    overflow: hidden;  /* Prevent both horizontal and vertical scrolling */
+
+  }
+
+
+  .header-container{
+    display:flex;
+    align-items: center;
+    justify-content: space-between; /* Distribute header and tabs evenly */
+    width: 100%;
+    padding: 30px 30px;
+    position: relative;
+  }
+  
+  .Header {
+    line-height: 1;
+    font-family: 'copperplate';
+    padding: 0;
+    margin: 0;
+    font-size: 24px;         
+    color: whitesmoke;       
+    white-space: nowrap;
+    flex: 1;
+  }
+
+  .Tabs{
+    align-items: center;
+   display: flex;
+   gap: 15px;
+   list-style: none;
+   margin: 0;
+   padding:0;
+  }
+
+  .Tabs li{
+    margin:0;
+    padding:0;
+  }
+
+  .Tabs li a {
+    font-family: 'copperplate';
+    text-decoration: none;      /* Remove underlines */
+    color: whitesmoke;
+    font-size: 1rem;
+    padding: 8px 12px;          /* Add padding to links */
+    border-radius: 8px;         /* Round corners */
+    
+    transition: background-color 0.3s ease;
+
+}
+
+.Tabs li a:hover {
+    background-color: hsla(0, 0%, 96%, 0.471); /* Hover effect */
+}
+
+  .card{
+    border: none;  
+    position: relative;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    margin: 0;
+    padding: 0;
+
+  }
+   .card-image{
+    width:100%;
+    height: auto;
+    max-height: 500px;
+    object-fit: cover;
+    display:block;
+    margin: 0;
+    padding: 0;
+    transform: scale(1.05);
+   }
+
+.text-overlay{
+    color:whitesmoke;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    font-size: 20px;
+}
+
+.background{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    z-index: -1;
+    filter: blur(2px);
+}
+
+.foot{
+    margin: 20px;
+}
+
+.Welcome-text{
+    top: 20%;
+    left:30%;
+    transform: translate(-10%,-0%);
+    font-size: 50px;
+    padding: none;
+    margin: 0;
+    text-shadow: 8;
+}
+
+.Ebackground{
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+
+
+

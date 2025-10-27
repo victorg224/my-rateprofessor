@@ -1,0 +1,33 @@
+.A-Main{
+    background-color: black;
+    width: 100%;
+    display: flex;          /* Enable Flexbox */
+    justify-content: center;
+    align-items: center;     /* Center items horizontally */
+    padding:0;
+    height: 100hv;
+    background-clip: border-box;   
+    position: relative; 
+    overflow: hidden;  
+
+}
+
+.about-me-content{
+    display: inline-block;
+    padding: 20px;
+    border: 1px solid black;
+    margin: 10px;
+    border-radius: 5%;
+    display: flex;
+}
+
+.Card-image{
+    height: 300px;
+    width: 400px;
+}
+
+.paragraph{
+    font-size: 16px;
+    padding: 2%;
+    
+}
